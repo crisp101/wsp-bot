@@ -1,0 +1,13 @@
+--------- bitacora del proyecto -------------
+
+*INICIO DEL PROYECTO* : 27 de mayo
+
+actualizacion 11 de junio : arregle el codigo pero ya no responde a los mensajes el bot
+
+update 16 de junio : mejore el codigo pero hay problemas en la logica para agendar la cita (crashea al ingresar los datos)
+
+update 17 de junio : el flow para guardar los datos para agendar tienen un error en el que si escribo una palabra que active otro flow, este se corta y te manda a otra respuesta, crasheando el bot.
+PROBLEMA 2 : despues de haber ingresado los datos, no se muestran las fechas disponibles. el ultimo mensaje es : "por favor, selecciona una fecha valida del menu"
+PROBLEMA 3 : los datos ingresados no se validan correctamente, a pesar de que no me muestra las fechas disponibles y el horario. el flow sigue y me muestra el flow de agendar con kinesiologo.
+
+conclusion : puros problemas esta wea
