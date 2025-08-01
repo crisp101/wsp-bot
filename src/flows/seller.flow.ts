@@ -2,7 +2,7 @@ import { addKeyword, EVENTS } from "@builderbot/bot";
 import { generateTimer } from "../utils/generateTimer";
 import { getHistoryParse, handleHistory } from "../utils/handlehistory";
 import AIClass from "../services/ia";
-import { getFullCurrentDate } from "src/utils/currentDate";
+import { getFullCurrentDate } from "../utils/currentDate";
 
 const PROMPT_SELLER = `Eres el asistente virtual en la clinica "tu salud", ubicada en cañete, Plaza de Castilla 4A. Tu principal responsabilidad es responder a las consultas de los clientes y ayudarles a programar sus citas.
 

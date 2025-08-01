@@ -3,7 +3,7 @@ import AIClass from "../services/ia";
 import { getHistoryParse, handleHistory } from "../utils/handlehistory";
 import { generateTimer } from "../utils/generateTimer";
 import { getCurrentCalendar } from "../services/calendar";
-import { getFullCurrentDate } from "src/utils/currentDate";
+import { getFullCurrentDate } from "../utils/currentDate";
 
 
 const PROMPT_SCHEDULE = `

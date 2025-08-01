@@ -2,8 +2,9 @@ import { createBot, MemoryDB, createProvider} from '@builderbot/bot'
 import AIClass from './services/ia';
 import flows from './flows';
 import { MetaProvider as Provider } from '@builderbot/provider-meta'
+import 'dotenv/config'
 
-const ai = new AIClass(process.env.OPEN_API_KEY, 'gpt-3.5-turbo-16k')
+const ai = new AIClass(process.env.OPEN_API_KEY, 'gpt-4.1-nano')
 
 const main = async () => {
 const provider = createProvider(Provider, {

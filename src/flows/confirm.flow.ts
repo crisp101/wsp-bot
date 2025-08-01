@@ -2,7 +2,7 @@ import { addKeyword, EVENTS } from "@builderbot/bot";
 import { clearHistory, handleHistory, getHistoryParse } from "../utils/handlehistory";
 import { getFullCurrentDate } from "../utils/currentDate";
 import AIClass from "../services/ia";
-import { appToCalendar } from "src/services/calendar";
+import { appToCalendar } from "../services/calendar";
 
 // Función para validar formato de teléfono chileno
 const validateChileanPhone = (phone: string): boolean => {
@@ -39,12 +39,12 @@ const generateJsonParse = (info: string) => {
     Contexto: "${info}"
     
     {
+        "startDate": "2024/02/15 00:00:00",    
         "name": "Leifer",
+        "phone": "+56912345678",
         "interest": "n/a",
         "value": "0",
-        "email": "fef@fef.com",
-        "startDate": "2024/02/15 00:00:00",
-        "phone": "+56912345678"
+        "description": "n/a"
     }
     
     Objeto JSON a generar:`
